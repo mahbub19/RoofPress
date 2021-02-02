@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1500px) and (max-width: 1700px) {
+
+    
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+}
+    
+    
+    /* Normal desktop :992px. */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .logo img {
+            padding-left: 0px;
+        }
+
+        .logo {
+            padding-left: 12px;
+        }
+
+        .about__img-2-inner {
+            display: none;
+        }
+        
+        .section__title h1 {
+            font-size: 45px;
+        }
+        
+        .services__content {
+            bottom: -35px;
+            padding: 0 20px;
+        }
+
+        .testimonial__thumb img {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .testimonial__content-wrapper {
+            padding-top: 35px;
+            padding-bottom: 90px;
+        }
+        
+        .testimonial__item {
+            padding-bottom: 80px;
+        }
+    
+    }
+    
+    
+    /* Tablet desktop :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+
+        .appointment__form-group {
+            width: 100%;
+            right: 0;
+        }
+
+        .about__content {
+            padding-left: 0;
+            margin-top: 170px;
+        }
+
+        .testimonial__thumb {
+            display: none;
+        }
+        
+        .testimonial__content-wrapper {
+            padding-top: 35px;
+            padding-bottom: 90px;
+        }
+
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        .appointment__form-group {
+            width: 100%;
+            margin-right: 0;
+        }
+        
+        .about__content {
+            margin-top: 170px;
+            padding-left: 0;
+        }
+
+        .testimonial__thumb {
+            display: none;
+        }
+        
+        .testimonial__content-wrapper {
+            padding-top: 35px;
+            padding-bottom: 90px;
+        }
+
+    }
+    
+    /* Small Mobile :320px. */
+    @media (max-width: 575px) {
+
+        .logo img {
+            padding-left: 0;
+        }
+        
+        .logo {
+            text-align: center;
+        }
+        
+        .slider-content h1 {
+            font-size: 40px;
+        }
+        
+        .slider__btn a {
+            margin-right: 30px;
+        }
+        
+        .appointment__form-wrapper {
+            padding: 30px;
+        }
+        
+        .appointment__form-group {
+            width: 100%;
+            margin-right: 0;
+        }
+        
+        .about__img-2 {
+            display: none;
+        }
+        
+        .about__content {
+            margin-top: 170px;
+            padding-left: 0px;
+        }
+        
+        .section__title h1 {
+            font-size: 40px;
+        }
+        
+        .client__slider-title h4::after, .client__slider-title h4::before {
+            width: 27%;
+        } 
+        
+        .testimonial__thumb {
+            display: none;
+        }
+        
+        .testimonial__content-wrapper {
+            padding-top: 35px;
+            padding-bottom: 90px;
+        }
+    }
+    
+    /* Large Mobile :480px. */
+    @media only screen and (min-width: 550px) and (max-width: 767px){
+
+
+    }
